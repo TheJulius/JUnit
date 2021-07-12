@@ -1,0 +1,3 @@
+module jUnit {
+	requires junit;
+}
