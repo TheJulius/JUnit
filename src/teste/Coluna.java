@@ -64,7 +64,7 @@ public class Coluna {
 			this.tipo = tipo.toUpperCase();
 	}
 	
-	public String geraNotNull() {
+	private String geraNotNull() {
 		
 		if(isNotNull() == true) {
 			return "NOT NULL ";
@@ -72,7 +72,7 @@ public class Coluna {
 		return "";	
 	}
 	
-	public String geraAutoIncrement() {
+	private String geraAutoIncrement() {
 		
 		if(isAutoIncrement() == true) {
 			return "AUTO_INCREMENT";

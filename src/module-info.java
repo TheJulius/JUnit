@@ -1,3 +1,0 @@
-module jUnit {
-	requires junit;
-}
