@@ -13,6 +13,13 @@ public class main {
 		System.out.println(teste2.geraCampo());
 		System.out.println(teste3.geraCampo());
 		System.out.println(teste4.geraCampo());
+		
+		JUnitTeste jUnit = new JUnitTeste();
+		
+		jUnit.teste1();
+		jUnit.teste2();
+		jUnit.teste3();
+		jUnit.teste4();
 
 	}
 
